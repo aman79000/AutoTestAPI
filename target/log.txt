@@ -1,0 +1,79 @@
+Request method:	POST
+Request URI:	https://gaman7900.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Z2FtYW43OTAwQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjAwT1pCY01CcGs3MWZqMlVjU3QyQWRoY0RGbEJXbTVTM05TQXNPd0wyS1lFR2ZlLXdqU3h2cmNWbEJ4WGRmS1FkNTlIMmxxNTRwMThhS0h6NDNVTFpKMk8tWWJQM1J3aUN5dnJ0Sk5vaWEya3ZlUENlLXByMmdJU1ZSdURaam50am5UTmZ1Y2NoOW9xazlEazkzUWhvLWNpMkRyR2pUbThWUjBJbXBKd3UyMWs9MkUwNTZBMTQ=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "SCRUM"
+        },
+        "summary": "TestingEndToEnd",
+        "description": "EndToEndScenerios",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Date: Sat, 28 Sep 2024 16:28:54 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: e86beb562a13a61bb528f85e724a8c9a
+Set-Cookie: atlassian.xsrf.token=c89dca95972adf7a9c9ec00adb6c17bcc8f8be9a_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A9344525f-c2cd-4ecf-b522-b56f082e0f7b
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 1197b4c17a5047d58b7e6b0643d97874
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=741,atl-edge-internal;dur=141,atl-edge-upstream;dur=551,atl-edge-pop;desc="aws-ap-south-1"
+Transfer-Encoding: chunked
+
+{
+    "id": "10015",
+    "key": "SCRUM-16",
+    "self": "https://gaman7900.atlassian.net/rest/api/2/issue/10015"
+}
+Request method:	DELETE
+Request URI:	https://gaman7900.atlassian.net/rest/api/2/issue/10015
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	issueIdOrKey=10015
+Headers:		Authorization=Basic Z2FtYW43OTAwQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjAwT1pCY01CcGs3MWZqMlVjU3QyQWRoY0RGbEJXbTVTM05TQXNPd0wyS1lFR2ZlLXdqU3h2cmNWbEJ4WGRmS1FkNTlIMmxxNTRwMThhS0h6NDNVTFpKMk8tWWJQM1J3aUN5dnJ0Sk5vaWEya3ZlUENlLXByMmdJU1ZSdURaam50am5UTmZ1Y2NoOW9xazlEazkzUWhvLWNpMkRyR2pUbThWUjBJbXBKd3UyMWs9MkUwNTZBMTQ=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Sat, 28 Sep 2024 16:28:55 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 6c4043fbd6a30e1aa72e5a3e7af415d6
+Set-Cookie: atlassian.xsrf.token=877999ecefd40b11787dc75302f96f13abf6994a_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A9344525f-c2cd-4ecf-b522-b56f082e0f7b
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 0e5c3048a7f346428109a9403cf71b34
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=566,atl-edge-internal;dur=12,atl-edge-upstream;dur=554,atl-edge-pop;desc="aws-ap-south-1"
